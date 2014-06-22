@@ -1,0 +1,23 @@
+{
+  "name": "angular-nested-include",
+  "description": "ng-include's onload that is called after nested ng-includes are compiled.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/illniyar/angular-nested-include",
+	"main": "./release/angular-nested-include.js",
+	"dependencies": {
+    "angular": ">= 1.2.0"
+  },
+	"devDependencies": {
+		"angular-mocks": "~1.2.15"
+	},
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"package.json",
+		"Gruntfile.js",
+		"test",
+		"build",
+		"sample"
+	]
+}
